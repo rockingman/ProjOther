@@ -101,7 +101,7 @@ def show_verify_code(request):
     return render(request,'app01/show_verify_code.html')
 
 
-
+# hello
 def do_verify(request):
     """校验验证码"""
     # 获取用户填写的验证码
